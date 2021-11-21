@@ -8,6 +8,7 @@ header {
     padding: 20px 0;
 }
 
+/* Navbar */
 .caixa {
     position: relative;
     width: 940px;
@@ -38,6 +39,7 @@ nav a:hover {
     text-shadow: 0px 0px 6px #686363;
 }
 
+/* Página Produtos */
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -84,6 +86,7 @@ nav a:hover {
     margin-top: 10px;
 }
 
+/* Rodapé */
 footer {
     text-align: center;
     background: url(imgs/bg.jpg);
@@ -96,6 +99,7 @@ footer {
     margin: 20px 0;
 }
 
+/* Página de Contato */
 .main-contato {
     width: 940px;
     margin: 0 auto;  
@@ -155,11 +159,7 @@ td, th {
     padding: 8px 15px;
 }
 
-/* css da pagina index*/
-/*.banner {
-    width: 100%;
-}*/
-
+/* página index*/
 .titulo-principal {
     text-align: center;
     font-size: 2em;
@@ -253,6 +253,7 @@ td, th {
     box-shadow: 0px 0px 12px #000000;
 }
 
+/*Um pouco de responsividade*/
 @media screen and (max-width: 480px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
         width: auto;
