@@ -3,11 +3,12 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <title> Mustache Barbershop </title>
+        <meta name="viewport" content="width=device-width", initial-scale=1>
+        <title> Mustache Portifolio </title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="" rel="">
+        <link rel="stylesheet" type="text/css" href="bootstrap3/css/bootstrap.min.css">
     </head>
     <body>
         <header>
@@ -27,13 +28,53 @@
         </header>
 
         <main>
+            <div class="container">
+                <h2 >Portifolio</h2>
+                <img class="img-responsive" src="imgs/corte1.jpg" alt="Fazendo a barba">
+                
+                <div class="panel-group" id="paineis-portifolio">
+                    <div class="panel panel-default">    
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-p" data-parent="#paineis-portifolio">Valores</h3>
+                        </div>
+                        <div id="primeiro-p" class="collapse in">
+                            <div class="panel-body">
+                                <p>Prezamos pela qualidade, conforto e satisfaçãos de nossos cliente, e claro quero que você tenha a melhor experiência quando o assunto é barbearia.</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="panel panel-default">    
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-p" data-parent="#paineis-portifolio">Ambiente</h3>
+                        </div>
+                        <div id="segundo-p" class="collapse">
+                            <div class="panel-body">
+                                <p>Enquanto espera você pode jogar sinuca, totó e fliplerama em nossa sala de espera descontraida, ou então que tal pegar um cerveja no frigobar e assistir televisao enquanto aguar o seu atendimento? Sinta se avontade!!</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="panel panel-default">    
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-p" data-parent="#paineis-portifolio">Qualidade</h3>
+                        </div>
+                        <div id="terceiro-p" class="collapse">
+                            <div class="panel-body">    
+                                <p>Quando o assunto é alta estima a exigencia é grande, por isso usamos produtos de altissima qualidade e equipamentos de primeira.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
         </main>
 
         <footer>
             <img src="imgs/logo-branco.png" alt="Logo da Mustache Barbershop">
             <p class="copyright">&copy; Copyright Mustache Barbershop - 2021</p>
         </footer>
-
+    <script src="jquery.js"></script>
+    <script src="bootstrap3/js/bootstrap.min.js"></script>
     </body>
 </html>

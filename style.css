@@ -1,6 +1,6 @@
 body {
     /*background: url(bgbody.png);*/
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
 }
 
 header {
@@ -8,7 +8,7 @@ header {
     padding: 20px 0;
 }
 
-/* Navbar */
+/* Navbar 
 .caixa {
     position: relative;
     width: 940px;
@@ -38,7 +38,7 @@ nav a:hover {
     text-decoration: none;
     text-shadow: 0px 0px 6px #686363;
 }
-
+*/
 /* Página Produtos */
 .produtos {
     width: 940px;
@@ -253,8 +253,15 @@ td, th {
     box-shadow: 0px 0px 12px #000000;
 }
 
+/*Pagina do Portifolio (Frankstein)*/
+#paineis-portifolio {
+    margin-top: 20px;
+}
+
+
+
 /*Um pouco de responsividade*/
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
         width: auto;
     }
@@ -270,4 +277,4 @@ td, th {
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
     }
-}
+}*/
