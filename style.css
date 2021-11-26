@@ -258,6 +258,16 @@ td, th {
     margin-top: 20px;
 }
 
+.titulo-depoimentos {
+    background-color: #0275d8;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(233, 232, 232);
+}
+
 
 
 /*Um pouco de responsividade*/
