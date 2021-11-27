@@ -185,7 +185,66 @@
             </div>
         </section>
 
+        <div class="container">
+            <h3>Apresentação da Barbearia</h3>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aSpRLebpFPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <section>
+            <h2>Contato</h2>
+            <p>Entre em contato conosco</p>
+
+            <form> 
+                <div class="form-group">
+                    <label for="contato-name">Nome:</label>
+                    <input class="form-control" id="contato-name" type="text" placeholder="Seu Nome" >
+                </div>
+                <div class="form-group">
+                    <label for="contato-email">Email:</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">@</div>        
+                        <input class="form-control" id="contato-email" type="email" placeholder="Seu email">
+                    </div>
+                </div>
+
+                <label> Forma de contato </label> 
+                <div class="grupo-radio">              
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="forma-contato" checked> 
+                            WhatsApp
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="forma-contato"> 
+                            Ligação
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="forma-contato"> 
+                            Email
+                        </label>
+                    </div>
+                </div><!--
+
+                --><select class="select-contato form-control">
+                    <option disabled selected>Turno</option>
+                    <option>Manha</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+
+                <button class="botao-enviar-form btn btn-primary" type="submit">Enviar</button>                
+            </form>
+        </section>
+
     </main>
+
+
 
     <footer>
         <img src="imgs/logo-branco.png" alt="Logo da Mustache Barbershop">

@@ -268,6 +268,19 @@ td, th {
     color: rgb(233, 232, 232);
 }
 
+.grupo-radio, .select-contato{
+    width: 50%;
+    display: inline;
+    vertical-align: top;
+}
+
+.grupo-radio .radio:first-child{
+    margin-top: 0;
+}
+
+.botao-enviar-form {
+    margin-top: 10px;
+}
 
 
 /*Um pouco de responsividade*/
